@@ -1,8 +1,12 @@
+import styles from "../styles/Home.module.css";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Sunnatbek Qadamov</h1>
-    </div>
+    <section className={styles.home}>
+      <div className="container">
+        <h1>Sunnatbek Qadamov</h1>
+      </div>
+    </section>
   );
 };
 
