@@ -19,7 +19,7 @@ const Header = () => {
                 <Link to="/about">About</Link>
               </li>
             </ul>
-            <button>Download CV</button>
+            <button className={styles.download_button}>Download CV</button>
           </div>
         </div>
       </div>

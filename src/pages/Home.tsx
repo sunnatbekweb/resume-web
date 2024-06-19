@@ -12,26 +12,29 @@ const Home = () => {
           I'm a <span>Frontend developer</span> from Uzbekistan
         </h2>
         <div className={styles.icons_container}>
-          <div className={styles.icons_wrapper}>
-            <Link to={"https://www.linkedin.com/in/sunnatbekqadamov/"} target="_blank">
+          <Link
+            to={"https://www.linkedin.com/in/sunnatbekqadamov/"}
+            target="_blank"
+          >
+            <div className={styles.icons_wrapper}>
               <FaLinkedin />
-            </Link>
-          </div>
-          <div className={styles.icons_wrapper}>
-            <Link to={"https://github.com/sunnatbekweb"} target="_blank">
+            </div>
+          </Link>
+          <Link to={"https://github.com/sunnatbekweb"} target="_blank">
+            <div className={styles.icons_wrapper}>
               <FaGithub />
-            </Link>
-          </div>
-          <div className={styles.icons_wrapper}>
-            <Link to={"https://t.me/Sunnatbek_Kadamov"} target="_blank">
+            </div>
+          </Link>
+          <Link to={"https://t.me/Sunnatbek_Kadamov"} target="_blank">
+            <div className={styles.icons_wrapper}>
               <FaTelegram />
-            </Link>
-          </div>
-          <div className={styles.icons_wrapper}>
-            <Link to={"mailto:sunnatbekkadamov@gmail.com"} target="_blank">
+            </div>
+          </Link>
+          <Link to={"mailto:sunnatbekkadamov@gmail.com"} target="_blank">
+            <div className={styles.icons_wrapper}>
               <MdEmail />
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </div>
     </section>

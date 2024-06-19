@@ -16,7 +16,7 @@
 
 .home h2 span {
   padding-bottom: 6px;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #ff0000;
 }
 
 .home .icons_container {
@@ -33,4 +33,9 @@
   display: grid;
   place-content: center;
   background: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s linear;
+}
+
+.home .icons_container .icons_wrapper:hover {
+  background: rgba(255, 0, 0, 0.301);
 }
