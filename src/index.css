@@ -15,6 +15,7 @@ ul {
 
 body {
   background-image: url(./assets/bg_Image.webp);
+  background-color: #050505;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
