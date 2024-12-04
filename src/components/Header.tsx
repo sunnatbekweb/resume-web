@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import "../styles/Header.scss";
+import "../styles/header.scss";
 
 const Header = () => {
   const logoText = "<SQ/>";
