@@ -1,7 +1,7 @@
 .about {
   width: 80%;
   height: 60vh;
-  padding: 40px;
+  padding: 40px 20px;
   margin: 0 auto;
   display: flex;
   border-radius: 10px;
@@ -14,19 +14,51 @@
   );
 
   &__row {
+    display: flex;
+    column-gap: 20px;
+
     &--col {
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 60%;
 
       &-imageContainer {
         & img {
           width: 150px;
+          border-radius: 12px;
         }
       }
 
-      & .contact {
-        
+      &-location {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        margin: 12px 0 20px 0;
+      }
+
+      &-skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+
+        & .skills__item {
+          width: fit-content;
+          border: 1px solid #ffffff;
+          padding: 5px 10px;
+          color: #ffffff;
+          border-radius: 8px;
+          background: rgba(255, 255, 255, 0.2);
+          font-size: 12px;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+      
+      &:first-child,
+      &:last-child {
+        width: 20%;
       }
     }
   }
