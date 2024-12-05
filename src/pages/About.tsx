@@ -2,6 +2,7 @@ import { BiLogoTypescript } from "react-icons/bi";
 import "../styles/about.scss";
 import { FaLocationDot, FaReact } from "react-icons/fa6";
 import { SiJavascript } from "react-icons/si";
+import { MdLanguage } from "react-icons/md";
 
 const About = () => {
   return (
@@ -25,7 +26,10 @@ const About = () => {
               <div className="skills__item">#TypeScript</div>
               <div className="skills__item">#React</div>
               <div className="skills__item">#Redux</div>
+              <div className="skills__item">#Next.js</div>
               <div className="skills__item">#ReduxToolkit</div>
+              <div className="skills__item">#REST API</div>
+              <div className="skills__item">#Zustand</div>
               <div className="skills__item">#git</div>
             </div>
           </div>
@@ -39,6 +43,19 @@ const About = () => {
               passionate about creating a user-friendly website for this
               purpose.
             </p>
+            <h4 className="secondary-title">Languages</h4>
+            <div className="language__item">
+              <MdLanguage style={{ fontSize: 24 }} />
+              <span>Uzbek - Native</span>
+            </div>
+            <div className="language__item">
+              <MdLanguage style={{ fontSize: 24 }} />
+              <span>Russian - Intermediate</span>
+            </div>
+            <div className="language__item">
+              <MdLanguage style={{ fontSize: 24 }} />
+              <span>English - Upper Intermediate</span>
+            </div>
           </div>
           <div className="about__row--col">
             <h3 className="about__row--col--title">I use</h3>
