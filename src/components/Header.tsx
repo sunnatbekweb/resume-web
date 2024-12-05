@@ -18,6 +18,9 @@ const Header = () => {
               <li className="nav_list_item">
                 <NavLink to="/about">About</NavLink>
               </li>
+              <li className="nav_list_item">
+                <NavLink to="/contact">Contact</NavLink>
+              </li>
             </ul>
             <button className="download_button">Download CV</button>
           </div>
