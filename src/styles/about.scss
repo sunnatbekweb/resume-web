@@ -1,5 +1,4 @@
 .about {
-  //   width: 80%;
   height: 60vh;
   padding: 40px 20px;
   margin: 0 auto;
@@ -54,6 +53,18 @@
           font-weight: 500;
           line-height: normal;
         }
+      }
+
+      & .stack__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        width: 100%;
+        border-radius: 8px;
+        background: #42424283;
+        margin: 10px 0;
+        height: 48px;
       }
 
       &:nth-child(2) {

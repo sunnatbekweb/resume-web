@@ -1,5 +1,7 @@
-import { FaLocationDot } from "react-icons/fa6";
+import { BiLogoTypescript } from "react-icons/bi";
 import "../styles/about.scss";
+import { FaLocationDot, FaReact } from "react-icons/fa6";
+import { SiJavascript } from "react-icons/si";
 
 const About = () => {
   return (
@@ -39,7 +41,38 @@ const About = () => {
             </p>
           </div>
           <div className="about__row--col">
-            <h3 className="about__row--col--title">My stack</h3>
+            <h3 className="about__row--col--title">I use</h3>
+            <div className="stack__item">
+              <SiJavascript
+                style={{
+                  fontSize: 32,
+                  color: "yellow",
+                  backgroundColor: "#000",
+                  borderRadius: 2,
+                }}
+              />
+              <span>JavaScript</span>
+            </div>
+            <div className="stack__item">
+              <BiLogoTypescript
+                style={{
+                  fontSize: 42,
+                  color: "#007BCD",
+                  borderRadius: 2,
+                }}
+              />
+              <span>TypeScript</span>
+            </div>
+            <div className="stack__item">
+              <FaReact
+                style={{
+                  fontSize: 32,
+                  color: "rgb(86, 196, 225)",
+                  borderRadius: 2,
+                }}
+              />
+              <span>React</span>
+            </div>
           </div>
         </div>
       </div>
